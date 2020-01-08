@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration> 
+  <common> 
+    <list> 
+      <pageSize value="10" cType="java.lang.Integer"/>
+      <threadResult value="4" cType="java.lang.Integer" />
+      <submitTimeout value="4000" cType="java.lang.Integer" />
+    </list> 
+  </common>
+</configuration>
