@@ -76,10 +76,10 @@
 
 
     <!-- 4.扫描web相关的bean -->
-    <context:component-scan base-package="com.kangping.cloudplatform.controller"/>
+    <context:component-scan base-package="com.ash.controller"/>
 
     <!-- 扫描service包下所有使用注解的类型 -->
-    <context:component-scan base-package="com.kangping.cloudplatform.service" />
+    <context:component-scan base-package="com.ash.service" />
 
 
     <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
@@ -87,7 +87,7 @@
         <!-- 注入sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!-- 给出需要扫描Dao接口包 -->
-        <property name="basePackage" value="com.kangping.cloudplatform.dao"/>
+        <property name="basePackage" value="com.ash.dao"/>
     </bean>
 
 

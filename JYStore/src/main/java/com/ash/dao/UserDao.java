@@ -5,7 +5,7 @@ import com.ash.bean.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-public interface UserMapper {
+public interface UserDao {
     long countByExample(UserExample example);
 
     int deleteByExample(UserExample example);
